@@ -1,3 +1,4 @@
+//understand how to import this
 export default CONTACTS = [
   {
     FirstName: "Liam",
