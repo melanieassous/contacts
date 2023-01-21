@@ -1,7 +1,4 @@
-import "./App.css";
-import { ContactsList } from "./ContactsList/ContactsList";
-
-let contacts = [
+export default CONTACTS = [
   {
     FirstName: "Liam",
     LastName: "Bublil",
@@ -38,13 +35,3 @@ let contacts = [
     Number: "0667929770",
   },
 ];
-
-function App() {
-  return (
-    <div className="App">
-      <ContactsList contactsList={contacts} />
-    </div>
-  );
-}
-
-export default App;

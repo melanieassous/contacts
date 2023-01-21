@@ -1,0 +1,21 @@
+.contact {
+  margin: 10px auto;
+  width: 150px;
+  border-radius: 10px;
+  background-color: beige;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.first-name {
+  margin-right: 5px;
+}
+
+.contact:hover {
+  background-color: darkgoldenrod;
+}
+
+.delete-contact {
+  cursor: pointer;
+  float: right;
+}

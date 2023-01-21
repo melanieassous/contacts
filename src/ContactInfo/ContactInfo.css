@@ -1,0 +1,28 @@
+.contact-info {
+  background-color: darkgoldenrod;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 25px;
+  position: fixed;
+  top: 25%;
+  left: 35%;
+}
+
+.contact-info-element {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+}
+
+.close-contact-info {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.save-contact-info {
+  width: fit-content;
+  margin: 10px auto;
+  cursor: pointer;
+}
