@@ -1,5 +1,4 @@
-//understand how to import this
-export default CONTACTS = [
+export const CONTACTS = [
   {
     FirstName: "Liam",
     LastName: "Bublil",
