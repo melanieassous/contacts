@@ -1,11 +1,11 @@
 import "./App.css";
-import { ContactsList } from "./ContactsList/ContactsList";
 import { CONTACTS } from "./Contacts";
+import { Contacts } from "./Contacts/Contacts";
 
 function App() {
   return (
     <div className="App">
-      <ContactsList contactsList={CONTACTS} />
+      <Contacts contacts={CONTACTS} />
     </div>
   );
 }
