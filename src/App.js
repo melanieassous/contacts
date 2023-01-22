@@ -5,7 +5,7 @@ import { Contacts } from "./Contacts/Contacts";
 function App() {
   return (
     <div className="App">
-      <Contacts contacts={CONTACTS} />
+      <Contacts contactsList={CONTACTS} />
     </div>
   );
 }

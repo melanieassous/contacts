@@ -3,8 +3,8 @@ import { useState, useEffect, useRef } from "react";
 import { ContactInfo } from "../ContactInfo/ContactInfo";
 import "./Contacts.css";
 
-export function Contacts({ contacts }) {
-  // const [contactsList, setContactsList] = useState(contacts);
+export function Contacts({ contactsList }) {
+  const [contacts, setContacts] = useState(contactsList);
   const [contactShown, setContactShown] = useState(null);
   const [isContactInfoShown, setIsContactInfoShown] = useState(false);
 
@@ -56,7 +56,7 @@ export function Contacts({ contacts }) {
         </button>
         <ContactsList
           contacts={contacts}
-          //setContacts={setContactsList}
+          setContacts={setContacts}
           setIsContactInfoShown={setIsContactInfoShown}
           setContactShown={setContactShown}
         />

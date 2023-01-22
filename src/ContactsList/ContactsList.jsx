@@ -3,6 +3,7 @@ import "./ContactsList.css";
 
 export function ContactsList({
   contacts,
+  setContacts,
   setIsContactInfoShown,
   setContactShown,
 }) {
@@ -12,8 +13,8 @@ export function ContactsList({
   };
 
   const deleteContact = (event, contactToDelete) => {
-    contacts = contacts.filter(
-      (contact) => contact.Number !== contactToDelete.Number
+    setContacts(
+      contacts.filter((contact) => contact.Number !== contactToDelete.Number)
     );
     event.stopPropagation();
   };
